@@ -1,43 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>🧶 Hunt0k4r</title>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- FONT AWSOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <section class="intro-wrapper">
+        <img src="./media/me.jpeg" alt="pfp" class="intro-img">
+
+        <h1 class="intro-text">
+            Hi, I am <strong>Pedro <br> Henrique</strong>
+        </h1>
+        <p class="intro-subtitle"> &lt;/full-stack dev&gt;</p>
+    </section>
+
+    <main>
+        <div class="grid-container">
+            <div class="box-1 box">
+                <div class="project-title">
+                    <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+                    <i class="fas fa-link fa-2x"></i>
+                </div> <img class="img" src="./images/img - 1.jpg" alt="">
+            </div>
+
+            <div class="box-2 box">
+                <div class="project-title">
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <i class="fas fa-link fa-2x"></i>
+                </div>
+                <img class="img" src="./images/img - 2.jpg" alt="">
+            </div>
+
+            <div class="box-3 box">
+                <div class="project-title">
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <i class="fas fa-link fa-2x"></i>
+                </div>
+                <img class="img" src="./images/img - 3.jpg" alt="">
+            </div>
+
+            <div class="box-4 box">
+                <div class="project-title">
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <i class="fas fa-link fa-2x"></i>
+                </div>
+                <img class="img" src="./images/img - 4.jpg" alt="">
+            </div>
+
+            <div class="box-5 box">
+                <div class="project-title">
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <i class="fas fa-link fa-2x"></i>
+                </div>
+                <img class="img" src="./images/img - 5.jpg" alt="">
+            </div>
+
+            <div class="box-6 box">
+                <div class="project-title">
+                    <i class="fab fa-github-square fa-2x"></i>
+                    <i class="fas fa-link fa-2x"></i>
+                </div>
+                <img class="img" src="./images/img - 6.jpg" alt="">
+            </div>
+
+        </div>
+    </main>
+
+    <section class="xp">
+        <p class="xp-txt">
+            Estudante de ciência da computação com experiência na criação de páginas web em javascript, por meio do uso
+            de
+            tecnologias como react, node, graphql e websocket. Além de afinidade com bancos dados sql (postgres,
+            mysql) e nosql (mongoDB), capacidade de criar designs simples usando figma ou adobe-xd, traduzir mock-ups
+            para html e css e, por fim, criar rotinas de testagem com selenium entre outras bibliotecas. Interesses
+            envolvem projetos de web scraping e criação de bots.
+        </p>
+    </section>
+
+    <footer class="footer">
+        <a href="https://github.com/phsb5321">
+            <a href="https://github.com/phsb5321">
+                <i class="fab fa-github-square fa-2x"></i>
+            </a>
+            <span class="footer-wrapper">
+                <button onclick='copyToClipboard("#p1")'>
+                    <p class=".footer-text" id="p2">copy</p>
+                    <p class=".footer-text" id="p1">phsb5321@gmail.com</p>
+                </button>
+            </span>
+
+            <a href="https://www.linkedin.com/in/pedro-balbino-370a68157/">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+        </a>
+    </footer>
+</body>
+
+
 </html>
